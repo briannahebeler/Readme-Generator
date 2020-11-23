@@ -90,6 +90,29 @@ const promptUser = () => {
         ],
     },
     {
+        type: 'list',
+        name: 'badgeColor',
+        message: 'What color would you like your license badge?',
+        choices: [
+            'brightgreen',
+            'green',
+            'yellowgreen',
+            'yellow',
+            'orange',
+            'red',
+            'blue',
+            'lightgrey',
+            'success',
+            'important',
+            'critical',
+            'informational',
+            'inactive',
+            'blueviolet',
+            'ff69b4',
+            '9cf'
+        ]
+    },
+    {
         type: 'input',
         name: 'contributing',
         message: 'Write any contribution instructions.',
