@@ -29,10 +29,44 @@ const promptUser = () => {
         message: 'What is the title of your project?',
     },
     {
-        type: '',
-        name: '',
-        message: '',
+        type: 'input',
+        name: 'description',
+        message: 'Write a description of your project.',
     },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'Write any installation instructions.',
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Write any usage instructions.',
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'What is your projects license?',
+        choices: [
+            "MIT", 
+            "Apache"
+        ],
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'Write any contribution instructions.',
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'Write any test instructions',
+    },
+    // {
+    //     type: '',
+    //     name: '',
+    //     message: '',
+    // },
     ]);
 };
 
@@ -41,6 +75,7 @@ const generateMarkdown = (data) =>
 ` # ${data.title}
 
 ## Description 
+${data.description}
 
 ## Table of Contents  
 * [Installation](#installation)
@@ -51,14 +86,19 @@ const generateMarkdown = (data) =>
 * [Questions](#questions)
 
 ## Installation
+${data.installation}
 
 ## Usage 
+${data.usage}
 
 ## License
+This project is licensed under the ${data.license} license.
 
 ## Contributing
+${data.contributing}
 
 ## Tests
+${data.tests}
 
 ## Questions
 If you have any additional questions about this application you can reach out to me at ${data.email}.

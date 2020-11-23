@@ -18,12 +18,10 @@ Insert walkthrough video that demonstrates the functionality of the README gener
 
 ## License
 
-// The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
-* add badge here?
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-[shields.io](https://shields.io/)
 // WHEN I choose a license for my application from a list of options
 // THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+[shields.io](https://shields.io/)
 
 ## Contributing
 
