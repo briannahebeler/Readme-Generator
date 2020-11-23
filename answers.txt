@@ -1,6 +1,6 @@
 ## Description 
 
-This command line application allows developers to generate a professional README for their new project. They are prompted with an array of questions for information about their application repository. After the user answers all of the questions, they will have a professional README.md file generated with the title of their project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
+This command line application allows developers to generate a professional README.md file for their repository. The user will be prompted with an array of questions where they will input information about their project. After the user answers all of the questions, they will have a professional README.md file generated with the title of their project and sections entitled: Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
 
 ## Installation
 
