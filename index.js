@@ -53,39 +53,27 @@ const promptUser = () => {
         name: 'license',
         message: 'What is your projects license?',
         choices: [
-            "Academic Free v3.0",
-            "Apache 2.0",
-            "Artistic 2.0",
-            "Boost Software 1.0",
-            'BSD 2-clause "Simplified"',
-            'BSD 3-clause "New" or "Revised"',
-            'BSD 3-clause Clear',
-            'Creative Commons license family',
-            'Creative Commons Zero v1.0 Universal',
-            'Creative Commons Attribution 4.0',
-            'Creative Commons Attribution Share Alike 4.0',
-            'Do What The F*ck You Want To Public',
-            'Educational Community v2.0',
-            'Eclipse Public 1.0',
-            'Eclipse Public 2.0',
-            'European Union Public 1.1',
-            'GNU Affero General Public v3.0',
-            "GNU General Public License family", 
-            "GNU General Public v2.0", 
-            "GNU General Public v3.0",
-            "GNU Lesser General Public License family",
-            'GNU Lesser General Public License v2.1',
-            'GNU Lesser General Public License v3.0',
+            "AFL",
+            "Apache",
+            "Artistic",
+            "BSL",
+            'BSD',
+            'CC',
+            'WTFPL',
+            'ECL',
+            'EPL',
+            'EUPL',
+            "GPL", 
+            "LGPL",
             'ISC',
-            'LaTeX Project Public License v1.3c',
-            'Microsoft Public License',
+            'LPPL',
+            'MSPL',
             "MIT",
-            "Mozilla Public 2.0",
-            'Open Software 3.0',
+            "MPL",
+            'OSL',
             'PostgreSQL',
-            'SIL Open Font 1.1',
-            'University of Illinois/NCSA Open Source',
-            'The Unlicense',
+            'NCSA',
+            'Unlicense',
             'zLib'
         ],
     },
@@ -120,7 +108,7 @@ const promptUser = () => {
     {
         type: 'input',
         name: 'tests',
-        message: 'Write any test instructions',
+        message: 'Write any test instructions.',
     },
     // {
     //     type: '',
@@ -133,6 +121,7 @@ const promptUser = () => {
 // const to write README file
 const generateMarkdown = (data) => 
 ` # ${data.title}
+![${data.license}](https://img.shields.io/badge/license-${data.license}-${data.badgeColor})
 
 ## Description 
 ${data.description}
@@ -150,7 +139,7 @@ ${data.installation}
 
 ## Usage 
 ${data.usage}
-${data.Media}
+![](${data.usageMedia})
 
 ## License
 This project is licensed under the ${data.license} license.
@@ -168,7 +157,7 @@ You can check out some of my other projects at ${data.username} (${data.link}).
 
 // initialize program
 const init = async () => {
-    console.log("I can see this");
+    // console.log("I can see this");
     try {
         const data = await promptUser();
 
