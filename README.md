@@ -1,8 +1,8 @@
- # text
-![Apache 2.0](https://img.shields.io/badge/license-Apache 2.0-green)
+ # Readme-Generator
+![Apache](https://img.shields.io/badge/license-Apache-green)
 
 ## Description 
-text
+This command line application allows developers to generate a professional README.md file for their repository. The user will be prompted with an array of questions where they will input information about their project. After the user answers all of the questions, they will have a professional README.md file generated with the title of their project and sections entitled: Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
 
 ## Table of Contents  
 * [Installation](#installation)
@@ -13,22 +13,21 @@ text
 * [Questions](#questions)
 
 ## Installation
-text
+This generator requires the user to install node.js and then the inquirer dependency.
 
 ## Usage 
-text
-\
-![](https://via.placeholder.com/150)
+Run the code through the terminal. Use the command "node index.js" to prompt the questions used to generate the README.md file.
+![](./assets/media/test-ex.png)
 
 ## License
-This project is licensed under the Apache 2.0 license.
+This project is licensed under the Apache license.
 
 ## Contributing
-text
+To contribute to this project you can fork this GitHub repository.
 
 ## Tests
-text
+To run tests for this application you can run the command "npm test" in your terminal. 
 
 ## Questions
-If you have any additional questions about this application you can reach out to me at text.
-You can check out some of my other projects at text (text).
+If you have any additional questions about this application you can reach out to me at briannahebeler@gmail.com.
+You can check out some of my other projects at briannahebeler (https://github.com/briannahebeler).
