@@ -1,5 +1,5 @@
  # Readme-Generator
-![Apache](https://img.shields.io/badge/license-Apache-green)
+![MIT](https://img.shields.io/badge/license-MIT-blueviolet)
 
 ## Description 
 This command line application allows developers to generate a professional README.md file for their repository. The user will be prompted with an array of questions where they will input information about their project. After the user answers all of the questions, they will have a professional README.md file generated with the title of their project and sections entitled: Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
@@ -17,10 +17,11 @@ This generator requires the user to install node.js and then the inquirer depend
 
 ## Usage 
 Run the code through the terminal. Use the command "node index.js" to prompt the questions used to generate the README.md file.
-![](./assets/media/test-ex.png)
+![](./assets/media/screenshot.png)
+Checkout video of application here: https://youtu.be/0gJ88WKwL1E
 
 ## License
-This project is licensed under the Apache license.
+This project is licensed under the MIT license.
 
 ## Contributing
 To contribute to this project you can fork this GitHub repository.

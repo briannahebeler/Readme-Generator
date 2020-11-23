@@ -45,8 +45,13 @@ const promptUser = () => {
     },
     {
         type: 'input',
-        name: 'usageMedia',
-        message: 'Copy and paste media link here to attach a screenshot or video of your application.',
+        name: 'usageScreenshot',
+        message: 'Copy and paste image link here to attach a screenshot of your application.',
+    },
+    {
+        type: 'input',
+        name: 'usageVideo',
+        message: 'Copy and paste video link here to attach a video of your application.',
     },
     {
         type: 'list',
@@ -140,7 +145,9 @@ ${data.installation}
 ## Usage 
 ${data.usage}
 \
-![](${data.usageMedia})
+![](${data.usageScreenshot})
+\
+Checkout video of application here: ${data.usageVideo}
 
 ## License
 This project is licensed under the ${data.license} license.
