@@ -139,6 +139,7 @@ ${data.installation}
 
 ## Usage 
 ${data.usage}
+\
 ![](${data.usageMedia})
 
 ## License

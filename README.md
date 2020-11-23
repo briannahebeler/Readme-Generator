@@ -17,7 +17,8 @@ text
 
 ## Usage 
 text
-![](./assets/media/test-ex.png)
+\
+![](https://via.placeholder.com/150)
 
 ## License
 This project is licensed under the Apache 2.0 license.

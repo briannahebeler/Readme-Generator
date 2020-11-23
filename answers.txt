@@ -1,36 +1,20 @@
-## Description 
+briannahebeler@gmail.com
+
+briannahebeler
+
+https://github.com/briannahebeler
+
+Readme-Generator
 
 This command line application allows developers to generate a professional README.md file for their repository. The user will be prompted with an array of questions where they will input information about their project. After the user answers all of the questions, they will have a professional README.md file generated with the title of their project and sections entitled: Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
 
-## Installation
-
 This generator requires the user to install node.js and then the inquirer dependency.
-
-## Usage 
 
 Run the code through the terminal. Use the command "node index.js" to prompt the questions used to generate the README.md file.
 
-//add link to video - run app in command line, respond to prompts, demo readme w/ functional table of contents//
-
 ./assets/media/test-ex.png
-
-
-## License
-
-// WHEN I choose a license for my application from a list of options
-// THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-[shields.io](https://shields.io/)
-
-## Contributing
 
 To contribute to this project you can fork this GitHub repository.
 
-## Tests
-
 To run tests for this application you can run the command "npm test" in your terminal. 
 
-## Questions
-
-username: briannahebeler
-github link: https://github.com/briannahebeler
